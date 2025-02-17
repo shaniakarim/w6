@@ -10,7 +10,7 @@ public class App {
     public static void main(String[] args) {
         while (true) {
             System.out.println(
-                    "1) Create new vehicle, 2) List vehicles, 3) Drive cars, 4) Fly planes, 5) Sail the ships, 0) End the program");
+                    "1) Create new vehicle, 2) List vehicles 3) Drive cars, 4) Fly planes, 5) Sail the ships, 0) End the program");
             int choice = Integer.parseInt(scanner.nextLine());
 
             if (choice == 0) {
