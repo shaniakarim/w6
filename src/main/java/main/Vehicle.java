@@ -37,6 +37,8 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return type + ": " + manufacturer + " " + model + "\nMax Speed: " + maxSpeed + " km/h\nEngine: " + engine;
+        return type + ": " + manufacturer + " " + model + "\n" +
+                "Max Speed: " + maxSpeed + " km/h\n" +
+                "Engine: " + engine;
     }
 }
