@@ -76,7 +76,7 @@ public class App {
                 Vehicle v = vehicles.get(i);
                 System.out.println(v.getType() + ": " + v.getManufacturer() + " " + v.getModel());
                 System.out.println("Max Speed: " + v.getMaxSpeed() + " km/h");
-                System.out.println("Engine: " + v.getEngine().getName() + " (" + v.getEngine().getPower() + " HP)");
+                System.out.println("Engine: " + v.getEngine().getName() + " (" + v.getEngine().getPower() + " HP) ");
 
                 if (i < vehicles.size() - 1) {
                     System.out.println();
